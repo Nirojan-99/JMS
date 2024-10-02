@@ -1,0 +1,39 @@
+html {
+    color: #fff;
+}
+
+.cont-icon:hover {
+    background-color: #f7df97;
+}
+
+.cont-icon {
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+}
+
+.zoom-text {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: #fff;
+}
+
+.zoom-text:hover {
+    transform: scale(1.2);
+    color: #f7df97;
+}
+
+.head-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.edit_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.trash_icon {
+    width: 16px;
+    height: 18px;
+}
