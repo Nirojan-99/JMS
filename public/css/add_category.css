@@ -1,0 +1,40 @@
+.dashed-border {
+    border: 2px dashed #000;
+}
+
+.img_container {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.add_img_container {
+    width: 20px;
+    left: 90px;
+    bottom: 90px;
+}
+
+.trash_img_container {
+    width: 40px;
+    left: 80px;
+    bottom: 80px;
+}
+
+.err_mg {
+    color: red;
+}
+
+#label {
+    cursor: pointer;
+}
+
+.selected_img {
+    height: 100%;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    top: 0px;
+    left: 0px;
+}

@@ -1,0 +1,80 @@
+/*  */
+.plus_icon {
+    width: 15px;
+    height: 15px;
+    filter: invert(100%) brightness(100%) contrast(100%);
+}
+
+.minus_icon {
+    width: 15px;
+    height: 15px;
+    filter: invert(100%) brightness(100%) contrast(100%);
+}
+
+.dashed-border {
+    border: 2px dashed #000;
+}
+
+.add_img_container {
+    width: 10%;
+    left: 45%;
+    bottom: 45%;
+}
+
+.selected_img {
+    height: 100%;
+    display: block;
+    width: 100%;
+    border: 2px dashed #000;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.09);
+    border-radius: 8px;
+    top: 0px;
+    left: 0px;
+}
+
+.trash_img_container {
+    width: 10%;
+    left: 45%;
+    bottom: 45%;
+
+}
+
+.input_image_container1 {
+    height: 332px;
+    width: 332px;
+}
+
+.input_image_container2 {
+    height: 100px;
+    width: 100px;
+}
+
+.err_mg {
+    color: red;
+}
+
+.plus_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.add_new_btn {
+    margin-left: 10px;
+}
+
+.trash_icon {
+    width: 16px;
+    height: 18px;
+}
+
+.edit_icon {
+    width: 18px;
+    height: 18px;
+    filter: invert(40%) sepia(100%) saturate(300%) hue-rotate(-10deg) brightness(120%) contrast(90%);
+}
+
+.cat_img_container {
+    width: 102px;
+    height: 102px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,25 @@
+.plus_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.add_new_btn {
+    margin-left: 10px;
+}
+
+.trash_icon {
+    width: 16px;
+    height: 18px;
+}
+
+.edit_icon {
+    width: 18px;
+    height: 18px;
+    filter: invert(40%) sepia(100%) saturate(300%) hue-rotate(-10deg) brightness(120%) contrast(90%);
+}
+
+.cat_img_container {
+    width: 102px;
+    height: 102px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+}

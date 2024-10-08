@@ -9,26 +9,26 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav fw-semibold fs-6">
                     <li class="nav-item mx-4">
-                        <a href="/" class="nav-link text-dark active fs-4" aria-current="page" href="#">Inventory</a>
+                        <a href="/Admin" class="nav-link text-dark active fs-4" aria-current="page" href="#">Inventory</a>
                     </li>
                     <li class="nav-item mx-4">
-                        <a href="/" class="nav-link text-dark active fs-4" aria-current="page" href="#">POS</a>
+                        <a href="/Admin/POS" class="nav-link text-dark active fs-4" aria-current="page" href="#">POS</a>
                     </li>
                     <li class="nav-item  dropdown">
                         <a class="nav-link  fs-4 dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Requests
                         </a>
                         <ul class="dropdown-menu bg-primary">
-                            <li><a class="dropdown-item text-white bg-primary mt-3" href="">Customization Requests</a></li>
-                            <li><a class="dropdown-item text-white bg-primary mt-3" href="">Warranty Climb</a></li>
-                            <li><a class="dropdown-item text-white bg-primary mt-3" href="">Repair Requests</a></li>
+                            <li><a class="dropdown-item text-white bg-primary mt-3" href="/Admin/Customization-Request">Customization Requests</a></li>
+                            <li><a class="dropdown-item text-white bg-primary mt-3" href="/Admin/Warranty-Claims">Warranty Climb</a></li>
+                            <li><a class="dropdown-item text-white bg-primary mt-3" href="/Admin/Repair-Requests">Repair Requests</a></li>
                         </ul>
                     </li>
                     <li class="nav-item mx-4">
-                        <a href="" class="nav-link text-dark fs-4" href="#">Order Management</a>
+                        <a  class="nav-link text-dark fs-4" href="/Admin/Order-Management">Order Management</a>
                     </li>
                     <li class="nav-item mx-4">
-                        <a href="" class="nav-link text-dark fs-4" href="#">User Management</a>
+                        <a class="nav-link text-dark fs-4" href="{{route('user_management')}}">User Management</a>
                     </li>
                 </ul>
             </div>
